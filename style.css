@@ -1,0 +1,668 @@
+/* Default styles */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@viewport {
+  width: device-width;
+  zoom: 1.0;
+}
+
+@-ms-viewport {
+  width: device-width;
+
+}
+
+
+
+/* a {
+	text-decoration: none;
+} */
+
+/* End default styles */
+
+ #header {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  height: 7vh;
+  background-color: white;
+  text-decoration: none;
+  border-bottom: 1px solid lightgrey;
+  margin-top: 1.9em;
+  height: 3em;
+  position: static;
+
+}
+
+#elements {
+  display: flex;
+  text-decoration: none;
+  color: black;
+
+}
+
+#elements li {
+  list-style: none;
+  margin-right: 1rem;
+  text-decoration: none;
+}
+
+#carrot {
+  margin-right: 2em;
+  font-size: 12px;
+  text-decoration: none;
+
+}
+
+#search-bar {
+  border-radius: 15px;
+  width: 250px;
+  height: 3vh;
+
+}
+
+
+.search-bar[type="text"] {
+  outline: none;
+}
+
+#comment {
+  font-size: 12;
+}
+
+
+.fa-cog {
+  color: #b3b3b3;
+}
+
+.fa-comments {
+  color: #b3b3b3
+}
+
+.fa-bullhorn {
+  color: #b3b3b3
+}
+
+.fa-user-circle {
+  color: #b3b3b3
+}
+
+.fa-angle-down {
+  color: #b3b3b3;
+}
+
+
+
+/* The sidebar menu */
+.side-nav {
+  height: 100%;
+  width: 100px;
+  position: fixed;
+  /* Fixed Sidebar (stay in place on scroll) */
+  z-index: 1;
+  /* Stay on top */
+  top: 0;
+  /* Stay at the top */
+  left: 0;
+  background-color: #21272c;
+  /* Black */
+  overflow-x: hidden;
+  /* Disable horizontal scroll */
+  padding-top: 20px;
+}
+
+
+.side-nav a {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #ffffff;
+  display: block;
+}
+
+.side-nav a:hover {
+  color: #ffffff;
+}
+
+.main {
+  margin-left: 160px;
+  /* Same as the width of the sidebar */
+  padding: 0px 10px;
+}
+
+
+.fa-hackerrank {
+  font-size: 55px;
+  margin: 5px;
+  color: white;
+
+}
+
+#logo {
+  background-color: green;
+  margin-top: -1.3em;
+  width: 100px;
+  height:
+}
+
+#buttons li {
+  margin-top: 2em;
+  margin-left: 1em;
+  justify-content: space-between;
+  list-style: none;
+
+}
+
+#item {
+  text-decoration: none;
+
+}
+
+/*The sidebar menu*/
+
+/* First section */
+
+#first-section {
+  border-bottom: 1px solid lightgrey;
+  height: 200px;
+}
+
+#Algorithm {
+  margin-top: 1em;
+  margin-left: 3em;
+  font-size: 45px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 30%;
+
+}
+
+#categories-challenges {
+  display: flex;
+  margin-left: 10em;
+  flex-direction: row;
+  width: 30%;
+
+}
+
+.acheivments {
+  text-decoration: none;
+  display: flex;
+  flex-direction: row;
+  color: grey;
+}
+
+.acheivments2 {
+  text-decoration: none;
+  display: flex;
+  flex-direction: row;
+  margin-left: 2em;
+  color: grey;
+
+}
+
+.list li {
+  list-style: none;
+}
+
+
+.list {
+  display: flex;
+  margin-left: 10em;
+  justify-content: flex-end;
+  width: 120px;
+  height: 80px;
+  border: 1px solid black;
+
+}
+
+
+#group {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+
+
+
+}
+
+
+#rating-div {
+  margin-right: 4em;
+  border: 1px black;
+
+}
+
+#rank-div {
+
+  margin-right: 4em;
+
+}
+
+#score-div {
+
+  margin-right: 4em;
+
+}
+
+
+.wrapper {
+  padding: 5px;
+  max-width: 460px;
+  width: 95%;
+  /*margin: 20px auto;*/
+  margin-left: 84em;
+  margin-top: -1em;
+
+}
+
+header {
+  padding: 0 15px;
+  margin-bottom: 10em;
+}
+
+.columns {
+  display: flex;
+  flex-flow: row wrap;
+  margin: 5px 0;
+
+
+}
+
+.column {
+  flex: auto;
+  border: 1px solid gray;
+  padding-left: 3em;
+  float: right;
+
+
+
+}
+
+
+#sec1 {
+  position: relative;
+
+}
+
+#sub-categories {
+  margin-left: 10em;
+  margin-top: 6em;
+
+
+}
+
+#sub-categories2 {
+  margin-left: 105em;
+  margin-top: -2em;
+  margin-right: 2em;
+  border: 1px solid gray;
+  padding: .2em;
+  padding-left: .7em;
+
+
+}
+
+.list-style {
+  display: flex;
+  list-style: none;
+  flex-direction: row;
+  color: grey;
+
+
+}
+
+
+
+.list-style2 {
+  display: flex;
+  list-style: none;
+  flex-direction: row;
+  color: grey;
+
+
+
+}
+
+.fa-th-large {
+  font-size: 12px;
+}
+
+.first {
+  margin-right: 2em;
+  margin-top: -1em;
+}
+
+.change-track {
+  color: grey;
+}
+
+
+/* First section */
+
+/* Main section*/
+
+
+#main-content {
+  background-color: #f2f2f2;
+}
+
+.box1 {
+  margin-left: 10em;
+
+}
+
+.shift {
+
+
+  width: 57%;
+  height: 170px;
+  background: white;
+  margin-left: 10em;
+  margin-top: -1em;
+
+
+
+}
+
+.square {
+  border: 1px solid grey;
+  border-radius: 10px;
+  height: 170px;
+  margin-top: 3em;
+
+}
+
+.content1 {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 1em;
+  margin-top: 1em;
+
+}
+
+.flowers {
+  font-size: 28px;
+  margin-left: 1em;
+}
+
+.content2 {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 4em;
+  margin-top: -2.5em;
+  justify-content: flex-end;
+}
+
+.fa-comment-alt {
+  margin-right: 1em;
+  color: grey;
+
+}
+
+.fa-trophy {
+  margin-right: 1em;
+  color: grey;
+}
+
+.fa-list {
+  margin-right: 1em;
+  color: grey;
+}
+
+#lorem {
+  margin-top: -2em;
+  margin-left: 2em;
+}
+
+.content3 {
+  list-style: none;
+  display: flex;
+  margin-top: 1em;
+  margin-left: 2em;
+
+}
+
+.submissions {
+  margin-right: 1em;
+}
+
+.max-score {
+  margin-right: 1em;
+}
+
+.view-challenge {
+  border: 1px black solid;
+  width: 20%;
+  height: 25%;
+  border-radius: 5px;
+  background-color: #00cc00;
+  margin-left: 70%;
+  margin-top: -2em;
+}
+
+.view-challenge-text {
+  display: flex;
+  justify-content: center;
+  color: #f2f2f2;
+  margin-top: .7em;
+}
+
+.square2 {
+  border: 1px solid grey;
+  border-radius: 10px;
+  width: 57%;
+  height: 170px;
+  background: white;
+  margin-left: 10em;
+  margin-top: 3em;
+
+}
+
+.lonely-integer {
+  font-size: 28px;
+  margin-left: 1em;
+  color: lightgrey;
+  margin-top: .5em;
+}
+
+.content1-2 {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+}
+
+.fa-check-circle {
+  font-size: 20px;
+  margin-left: 1em;
+  margin-top: 1.2em;
+  color: #00cc00;
+}
+
+.solved {
+  margin-left: .5em;
+  margin-top: 1.5em;
+  color: #00cc00;
+}
+
+#lorem2 {
+  margin-top: 1.5em;
+  margin-left: 2em;
+}
+
+.lonely-integer-lorem {
+  color: lightgrey;
+}
+
+.submissions2 {
+  color: lightgrey;
+  margin-right: 1em;
+}
+
+
+.square3 {
+  border: 1px solid grey;
+  border-radius: 10px;
+  width: 57%;
+  height: 170px;
+  background: white;
+  margin-left: 10em;
+  margin-top: 3em;
+
+}
+
+.content1-3 {
+  list-style: none;
+  display: flex;
+  margin-top: 1em;
+  margin-left: 2em;
+
+}
+
+#lorem3 {
+  margin-top: 2em;
+  margin-left: 2em;
+}
+
+.Encryption {
+  font-size: 28px;
+
+}
+
+.square4 {
+  border: 1px solid grey;
+  border-radius: 10px;
+  width: 57%;
+  height: 170px;
+  background: white;
+  margin-left: 10em;
+  margin-top: 3em;
+  margin-bottom: 5em;
+
+}
+
+
+/* Main section*/
+
+/* Right side */
+
+#web {
+  display: flex;
+  box-sizing: border-box;
+  margin-left: 85em;
+  margin-top: -55em;
+  flex-direction: column;
+  justify-content: left;
+
+}
+
+.track {
+  font-size: 20px;
+}
+
+#web-list {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+}
+
+.warmup {
+  color: grey;
+  margin-top: 1.5em;
+  margin-left: .5em;
+}
+
+.fa-arrows-alt-v {
+  margin-left: .7em;
+  font-size: 30px;
+}
+
+.fa-circle {}
+
+#web-list2 {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+
+}
+
+#web-list3 {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+
+}
+
+.fa-circle {
+  color: blue;
+  margin-left: 1.3em;
+}
+
+
+.arrays {
+  margin-left: .5em;
+  color: grey;
+}
+
+
+#web-list4 {
+  display: flex;
+  list-style: none;
+  flex-direction: row;
+}
+
+#web-list5 {
+  display: flex;
+  list-style: none;
+  flex-direction: row;
+}
+
+#web-list6 {
+  display: flex;
+  list-style: none;
+  flex-direction: row;
+}
+
+#web-list7 {
+  display: flex;
+  list-style: none;
+  flex-direction: row;
+}
+
+#web-list8 {
+  display: flex;
+  list-style: none;
+  flex-direction: row;
+}
+
+#web-list9 {
+  display: flex;
+  list-style: none;
+  flex-direction: row;
+}
+
+#web-list10 {
+  display: flex;
+  list-style: none;
+  flex-direction: row;
+}
+
+.dynamic {
+  margin-top: 1.5em;
+  margin-left: .5em;
+}
+
+
+
+.string-check {
+  margin-top: -1em;
+}
+
+/* Right side */
